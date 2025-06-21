@@ -13,7 +13,7 @@ if not cap.isOpened():
     exit()
 
 print("Webcam started. Press 'q' to quit.")
-print("The program will now only print when a NEW object is detected.")
+print("Objects Detected:")
 
 tracked_ids = set()
 
